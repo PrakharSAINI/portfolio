@@ -22,6 +22,7 @@ header {
 
 .main-heading {
     text-align: right;
+    max-height: 100%;
 }
 
 .page {
