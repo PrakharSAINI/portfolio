@@ -1,0 +1,43 @@
+@-ms-viewport{
+  width: device-width;
+}
+
+@media screen and (max-width: 999px){
+    .logo {
+        max-width: 120px;
+        max-height: 120px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h4 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-resolution: 252dpi){
+    .logo {
+        max-width: 120px;
+        max-height: 120px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h4 {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (min-width: 1000px){
+    .logo {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    h1 {
+        font-size: 46px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+}
